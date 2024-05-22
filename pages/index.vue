@@ -1,6 +1,6 @@
 <template>
-    <div>{{ $t('welcome') }}</div>
-
+    <HelloWorld />
+    
     <button @click="updateLocale">
         Change Locale
     </button>
